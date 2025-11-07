@@ -6,9 +6,9 @@ const HeroWorkshop = () => {
     <section className="relative min-h-[80vh] w-full overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
       {/* 3D Scene */}
       <div className="absolute inset-0">
-        {/* Note: Replace the URL below with your own Spline scene for a custom AI workshop */}
+        {/* Using validated Spline asset for reliable loading */}
         <Spline
-          scene="https://prod.spline.design/1v6ZspGDZCBoBP5r/scene.splinecode"
+          scene="https://prod.spline.design/EaQv24wazlheTQrd/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
